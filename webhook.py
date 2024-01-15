@@ -1,6 +1,6 @@
 import requests
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1196524879739113512/pc9SjtfrXU0_82YfITqAXNEWuvEqokowgWueEqbRY_JsGJl2cuIwfstYJKltwnlHS7c8"
+WEBHOOK_URL = "https://discord.com/api/webhooks/WEBHOOK-TOKEN"
 
 def send_webhook_message(message):
     if not message.strip():
