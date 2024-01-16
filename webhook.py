@@ -27,9 +27,9 @@ def send_webhook_message(webhook_url, message, embed_title, embed_description, e
 
 if __name__ == "__main__":
     webhook_url = input("Discord Webhook URL'sini girin: ")
-    message = input("Mesajı girin: ")
-    embed_title = input("Embed başlığını girin: ")
-    embed_description = input("Embed açıklamasını girin: ")
-    embed_color = input("Embed rengini altı hane hexadecimal olarak girin (örnek: FF0000): ")
+    message = input("Mesajı girin (Boş bırakılabilir): ")
+    embed_title = input("Embed başlığını girin(Boş bırakılabilir): ")
+    embed_description = input("Embed açıklamasını girin(Boş bırakılabilir): ")
+    embed_color = input("Embed rengini altı hane hexadecimal olarak girin (örnek: FF0000)(Boş bırakılabilir): ")
 
     send_webhook_message(webhook_url, message, embed_title, embed_description, embed_color)
